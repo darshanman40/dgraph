@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/algo"
+	"github.com/dgraph/x"
 )
 
 func (start *SubGraph) expandRecurse(ctx context.Context,

@@ -21,10 +21,10 @@ import (
 
 	"golang.org/x/net/trace"
 
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/store"
+	"github.com/dgraph/tok"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 var (

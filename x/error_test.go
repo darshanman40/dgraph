@@ -8,12 +8,12 @@ import (
 )
 
 const originalError = `some nice error
-github.com/dgraph-io/dgraph/x.Errorf
-	/home/jchiu/go/src/github.com/dgraph-io/dgraph/x/error.go:90
-github.com/dgraph-io/dgraph/x.someTestFunc
-	/home/jchiu/go/src/github.com/dgraph-io/dgraph/x/error_test.go:12
-github.com/dgraph-io/dgraph/x.TestTraceError
-	/home/jchiu/go/src/github.com/dgraph-io/dgraph/x/error_test.go:16
+github.com/dgraph/x.Errorf
+	/home/jchiu/go/src/github.com/dgraph/x/error.go:90
+github.com/dgraph/x.someTestFunc
+	/home/jchiu/go/src/github.com/dgraph/x/error_test.go:12
+github.com/dgraph/x.TestTraceError
+	/home/jchiu/go/src/github.com/dgraph/x/error_test.go:16
 testing.tRunner
 	/usr/lib/go-1.7/src/testing/testing.go:610
 runtime.goexit

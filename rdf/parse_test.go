@@ -19,8 +19,8 @@ package rdf
 import (
 	"testing"
 
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/types/facets"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/types/facets"
 	"github.com/stretchr/testify/assert"
 )
 

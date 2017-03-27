@@ -22,7 +22,7 @@ manishrjain@gmail.com
 
 * What is Dgraph
 
-[[https://github.com/dgraph-io/dgraph][https://github.com/dgraph-io/dgraph]]
+[[https://github.com/dgraph][https://github.com/dgraph]]
 
 Dgraph is an open source, distributed, low-latency graph serving system written in Go.
 

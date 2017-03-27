@@ -28,8 +28,8 @@ import (
 	"github.com/blevesearch/bleve/registry"
 	geom "github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 // Tokenizer defines what a tokenizer must provide.

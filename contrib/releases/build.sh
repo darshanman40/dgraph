@@ -3,7 +3,7 @@
 # This script is used to compile and tar gzip the release binaries so that they
 # can be uploaded to Github. It would typically only be used by Dgraph developers
 # while doing a new release. If you are looking to build Dgraph, you should run a
-# go build from inside $GOPATH/src/github.com/dgraph-io/dgraph/cmd/dgraph
+# go build from inside $GOPATH/src/github.com/dgraph/cmd/dgraph
 
 # Exit script in case an error is encountered.
 set -e
@@ -29,14 +29,14 @@ fi
 
 mkdir $tmp_dir;
 
-dgraph_cmd=$GOPATH/src/github.com/dgraph-io/dgraph/cmd;
+dgraph_cmd=$GOPATH/src/github.com/dgraph/cmd;
 build_flags='-v -tags=embed'
 
 echo -e "\033[1;33mBuilding binaries\033[0m"
 echo "dgraph"
-cd $dgraph_cmd/dgraph && go build $build_flags -ldflags="-X github.com/dgraph-io/dgraph/x.dgraphVersion=$release_version" .;
+cd $dgraph_cmd/dgraph && go build $build_flags -ldflags="-X github.com/dgraph/x.dgraphVersion=$release_version" .;
 echo "dgraphloader"
-cd $dgraph_cmd/dgraphloader && go build $build_flags -ldflags="-X github.com/dgraph-io/dgraph/x.dgraphVersion=$release_version" .;
+cd $dgraph_cmd/dgraphloader && go build $build_flags -ldflags="-X github.com/dgraph/x.dgraphVersion=$release_version" .;
 
 echo -e "\n\033[1;33mCopying binaries to tmp folder\033[0m"
 cd $tmp_dir;
@@ -77,6 +77,6 @@ rm -rf $tmp_dir
 
 echo -e "Calculating and storing checksum for tar gzipped assets."
 cd $cur_dir
-tar -zcf assets.tar.gz -C $GOPATH/src/github.com/dgraph-io/dgraph/dashboard/build .
+tar -zcf assets.tar.gz -C $GOPATH/src/github.com/dgraph/dashboard/build .
 checksum=$($digest_cmd assets.tar.gz | awk '{print $1}')
 echo "$checksum /usr/local/share/dgraph/assets.tar.gz" >> $checksum_file

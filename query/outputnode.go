@@ -29,9 +29,9 @@ import (
 	geom "github.com/twpayne/go-geom"
 	"github.com/twpayne/go-geom/encoding/geojson"
 
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 // ToProtocolBuf returns the list of graph.Node which would be returned to the go

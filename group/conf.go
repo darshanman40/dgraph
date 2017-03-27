@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/x"
 	farm "github.com/dgryski/go-farm"
 )
 

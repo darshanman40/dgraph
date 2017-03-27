@@ -4,8 +4,8 @@ import (
 	"container/heap"
 	"sort"
 
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/task"
+	"github.com/dgraph/x"
 )
 
 const jump = 32 // Jump size in InsersectWithJump.

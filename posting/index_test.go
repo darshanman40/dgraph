@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/store"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 const schemaStr = `

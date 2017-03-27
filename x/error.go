@@ -109,7 +109,7 @@ func Fatalf(format string, args ...interface{}) {
 }
 
 const (
-	dgraphPrefix  = "github.com/dgraph-io/dgraph/"
+	dgraphPrefix  = "github.com/dgraph/"
 	runtimePrefix = "src/runtime/"
 	testingPrefix = "src/testing/"
 )
@@ -130,12 +130,12 @@ func shortenedErrorString(err error) string {
 
 	// Here is a sample input:
 	//	 some error
-	//	 github.com/dgraph-io/dgraph/x.Errorf
-	//		/home/jchiu/go/src/github.com/dgraph-io/dgraph/x/error.go:89
+	//	 github.com/dgraph/x.Errorf
+	//		/home/jchiu/go/src/github.com/dgraph/x/error.go:89
 	//	 main.f
-	//		/home/jchiu/go/src/github.com/dgraph-io/dgraph/x/tmp/main.go:10
+	//		/home/jchiu/go/src/github.com/dgraph/x/tmp/main.go:10
 	//	 main.main
-	//		/home/jchiu/go/src/github.com/dgraph-io/dgraph/x/tmp/main.go:15
+	//		/home/jchiu/go/src/github.com/dgraph/x/tmp/main.go:15
 	//	 runtime.main
 	//		/usr/lib/go-1.7/src/runtime/proc.go:183
 	//	 runtime.goexit

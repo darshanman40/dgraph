@@ -25,7 +25,7 @@ package graph
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import facets "github.com/dgraph-io/dgraph/types/facets"
+import facets "github.com/dgraph/types/facets"
 
 import (
 	context "golang.org/x/net/context"

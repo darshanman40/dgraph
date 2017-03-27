@@ -1,8 +1,8 @@
 package tok
 
 import (
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 //  Might want to allow user to replace this.

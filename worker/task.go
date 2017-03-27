@@ -24,16 +24,16 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/group"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/types/facets/utils"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/algo"
+	"github.com/dgraph/group"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/task"
+	"github.com/dgraph/tok"
+	"github.com/dgraph/types"
+	"github.com/dgraph/types/facets"
+	"github.com/dgraph/types/facets/utils"
+	"github.com/dgraph/x"
 )
 
 var (

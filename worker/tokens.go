@@ -1,8 +1,8 @@
 package worker
 
 import (
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/tok"
+	"github.com/dgraph/x"
 )
 
 // Return string tokens from function arguments. It maps funcion type to correct tokenizer.

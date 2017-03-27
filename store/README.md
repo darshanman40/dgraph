@@ -31,7 +31,7 @@ BenchmarkGet_valsize10000-6	  200000	      8541 ns/op
 BenchmarkSet_valsize100-6  	      50	  32932578 ns/op
 BenchmarkSet_valsize1000-6 	      50	  28066678 ns/op
 BenchmarkSet_valsize10000-6	      50	  28736228 ns/op
-ok  	github.com/dgraph-io/dgraph/store	48.393s
+ok  	github.com/dgraph/store	48.393s
 ```
 
 Also based on dgraph-io/experiments/db:
@@ -71,7 +71,7 @@ BenchmarkGet_valsize1024	  300000	      5715 ns/op
 BenchmarkGet_valsize10KB	   50000	     27619 ns/op
 BenchmarkGet_valsize500KB	    2000	    604185 ns/op
 BenchmarkGet_valsize1MB	    2000	   1064685 ns/op
-ok  	github.com/dgraph-io/dgraph/store	55.029s
+ok  	github.com/dgraph/store	55.029s
 ```
 
 ### Thoughts

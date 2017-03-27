@@ -13,12 +13,12 @@ import (
 	"github.com/coreos/etcd/raft/raftpb"
 	"golang.org/x/net/context"
 
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/raftwal"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 const (

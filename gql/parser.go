@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dgraph-io/dgraph/lex"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/lex"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/x"
 	farm "github.com/dgryski/go-farm"
 )
 

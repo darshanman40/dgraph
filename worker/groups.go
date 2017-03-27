@@ -12,10 +12,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/raftwal"
+	"github.com/dgraph/store"
+	"github.com/dgraph/task"
+	"github.com/dgraph/x"
 )
 
 var (

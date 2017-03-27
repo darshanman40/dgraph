@@ -27,15 +27,15 @@ import (
 	"github.com/stretchr/testify/require"
 	geom "github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/gql"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/types/facets/utils"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/gql"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/store"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/types/facets"
+	"github.com/dgraph/types/facets/utils"
+	"github.com/dgraph/x"
 )
 
 func childAttrs(sg *SubGraph) []string {

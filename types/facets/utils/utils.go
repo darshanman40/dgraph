@@ -23,10 +23,10 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/tok"
+	"github.com/dgraph/types"
+	"github.com/dgraph/types/facets"
+	"github.com/dgraph/x"
 )
 
 // Sorts the facets.

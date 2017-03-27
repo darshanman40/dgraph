@@ -20,8 +20,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/task"
+	"github.com/dgraph/x"
 )
 
 type sortBase struct {

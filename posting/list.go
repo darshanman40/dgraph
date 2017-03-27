@@ -32,12 +32,12 @@ import (
 
 	"github.com/dgryski/go-farm"
 
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/types/facets/utils"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/store"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/types/facets"
+	"github.com/dgraph/types/facets/utils"
+	"github.com/dgraph/x"
 )
 
 var (

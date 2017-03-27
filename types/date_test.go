@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/x"
 )
 
 func TestConvertDateToBool(t *testing.T) {
