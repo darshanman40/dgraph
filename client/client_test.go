@@ -19,7 +19,7 @@ package client
 import (
 	"testing"
 
-	"github.com/dgraph-io/dgraph/query/graph"
+	"github.com/dgraph/query/graph"
 	"github.com/stretchr/testify/assert"
 )
 

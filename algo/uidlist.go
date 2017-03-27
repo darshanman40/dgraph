@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"sort"
 
-	"github.com/dgraph-io/dgraph/task"
+	"github.com/dgraph/task"
 )
 
 const blockSize = 100

@@ -28,15 +28,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/gql"
-	"github.com/dgraph-io/dgraph/group"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/query"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/gql"
+	"github.com/dgraph/group"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/query"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/store"
+	"github.com/dgraph/types"
+	"github.com/dgraph/worker"
+	"github.com/dgraph/x"
 )
 
 var q0 = `

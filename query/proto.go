@@ -19,9 +19,9 @@ package query
 import (
 	"time"
 
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 	geom "github.com/twpayne/go-geom"
 )
 

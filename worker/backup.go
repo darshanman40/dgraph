@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dgraph-io/dgraph/group"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/group"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

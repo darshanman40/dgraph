@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/task"
+	"github.com/dgraph/algo"
+	"github.com/dgraph/task"
 )
 
 func toString(t *testing.T, values []Val, vID TypeID) []string {

@@ -20,7 +20,7 @@ package gql
 import (
 	"bytes"
 
-	"github.com/dgraph-io/dgraph/lex"
+	"github.com/dgraph/lex"
 )
 
 const (

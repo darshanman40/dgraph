@@ -2,7 +2,7 @@
 
 syntax = "proto3";
 
-import "github.com/dgraph-io/dgraph/task/task.proto";
+import "github.com/dgraph/task/task.proto";
 
 package worker;
 

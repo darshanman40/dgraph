@@ -20,9 +20,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/dgraph-io/dgraph/client"
-	"github.com/dgraph-io/dgraph/rdf"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/client"
+	"github.com/dgraph/rdf"
+	"github.com/dgraph/x"
 )
 
 var (

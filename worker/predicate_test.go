@@ -23,10 +23,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/store"
+	"github.com/dgraph/task"
+	"github.com/dgraph/x"
 )
 
 func checkShard(ps *store.Store) (int, []byte) {

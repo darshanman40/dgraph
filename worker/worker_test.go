@@ -25,12 +25,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/algo"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/store"
+	"github.com/dgraph/task"
+	"github.com/dgraph/x"
 )
 
 func addEdge(t *testing.T, edge *task.DirectedEdge, l *posting.List) {

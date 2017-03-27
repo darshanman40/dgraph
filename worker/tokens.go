@@ -1,9 +1,9 @@
 package worker
 
 import (
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/tok"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 //  Might want to allow user to replace this.

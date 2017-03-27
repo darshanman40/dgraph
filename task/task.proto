@@ -1,5 +1,5 @@
 // To compile this file, in dgraph directory :
-// protoc --gofast_out=plugins=grpc,Mtypes/facets/facets.proto=github.com/dgraph-io/dgraph/types/facets:.  task/task.proto
+// protoc --gofast_out=plugins=grpc,Mtypes/facets/facets.proto=github.com/dgraph/types/facets:.  task/task.proto
 
 syntax = "proto3";
 import "types/facets/facets.proto";

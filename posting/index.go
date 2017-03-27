@@ -21,11 +21,11 @@ import (
 
 	"golang.org/x/net/trace"
 
-	"github.com/dgraph-io/dgraph/group"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/group"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 const maxBatchSize = 32 * (1 << 20)

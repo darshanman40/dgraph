@@ -10,7 +10,7 @@ import "C"
 import (
 	"flag"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/x"
 	"github.com/dgraph-io/goicu/icuembed"
 )
 

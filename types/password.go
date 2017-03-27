@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/x"
 )
 
 const (

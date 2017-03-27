@@ -35,9 +35,9 @@ import (
 
 	"github.com/dgryski/go-farm"
 
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/store"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 var (

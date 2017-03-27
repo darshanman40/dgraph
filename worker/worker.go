@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/store"
+	"github.com/dgraph/x"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

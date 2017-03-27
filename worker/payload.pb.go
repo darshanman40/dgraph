@@ -17,7 +17,7 @@ package worker
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import task "github.com/dgraph-io/dgraph/task"
+import task "github.com/dgraph/task"
 
 import (
 	context "golang.org/x/net/context"

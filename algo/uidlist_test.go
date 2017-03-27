@@ -19,7 +19,7 @@ package algo
 import (
 	"testing"
 
-	"github.com/dgraph-io/dgraph/task"
+	"github.com/dgraph/task"
 	"github.com/stretchr/testify/require"
 )
 

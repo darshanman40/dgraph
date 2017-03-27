@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/group"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
+	"github.com/dgraph/group"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
 )
 
 func TestConvertEdgeType(t *testing.T) {

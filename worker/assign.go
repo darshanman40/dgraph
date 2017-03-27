@@ -19,11 +19,11 @@ package worker
 import (
 	"golang.org/x/net/context"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/group"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/uid"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/algo"
+	"github.com/dgraph/group"
+	"github.com/dgraph/task"
+	"github.com/dgraph/uid"
+	"github.com/dgraph/x"
 )
 
 var emptyNum task.Num

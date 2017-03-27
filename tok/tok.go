@@ -23,9 +23,9 @@ import (
 
 	geom "github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/icutok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/icutok"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 // Tokenizer defines what a tokenizer must provide.

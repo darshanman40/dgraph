@@ -23,12 +23,12 @@ Dgraph is currently at version 0.7. It has 90% of the features planned for v1.0;
 - **Dgraph official documentation is present at [wiki.dgraph.io](https://wiki.dgraph.io).**
 - For feature requests or questions, visit [https://discuss.dgraph.io](https://discuss.dgraph.io).
 - Check out [the demo at dgraph.io](http://dgraph.io).
-- Please see [releases tab](https://github.com/dgraph-io/dgraph/releases) to find the latest release and corresponding release notes.
-- [See the Roadmap](https://github.com/dgraph-io/dgraph/issues/1) for list of working and planned features.
+- Please see [releases tab](https://github.com/dgraph/releases) to find the latest release and corresponding release notes.
+- [See the Roadmap](https://github.com/dgraph/issues/1) for list of working and planned features.
 - Read about the latest updates from Dgraph team [on our blog](https://open.dgraph.io/).
 
 ## Developers
-- See a list of issues [that we need help with](https://github.com/dgraph-io/dgraph/issues?q=is%3Aissue+is%3Aopen+label%3Ahelp_wanted).
+- See a list of issues [that we need help with](https://github.com/dgraph/issues?q=is%3Aissue+is%3Aopen+label%3Ahelp_wanted).
 - Please see [contributing to Dgraph](https://wiki.dgraph.io/Contributing_to_Dgraph) for guidelines on contributions.
 
 ## Data Loading and Persistence
@@ -42,5 +42,5 @@ Dgraph is currently at version 0.7. It has 90% of the features planned for v1.0;
 
 ## Contact
 - Please use [discuss.dgraph.io](https://discuss.dgraph.io) for documentation, questions, feature requests and discussions.
-- Please use [Github issue tracker](https://github.com/dgraph-io/dgraph/issues) for filing bugs or feature requests.
+- Please use [Github issue tracker](https://github.com/dgraph/issues) for filing bugs or feature requests.
 - Or, just join [![Slack Status](http://slack.dgraph.io/badge.svg)](http://slack.dgraph.io).

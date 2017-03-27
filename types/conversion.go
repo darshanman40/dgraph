@@ -28,9 +28,9 @@ import (
 	"github.com/twpayne/go-geom/encoding/geojson"
 	"github.com/twpayne/go-geom/encoding/wkb"
 
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/types/facets"
+	"github.com/dgraph/x"
 )
 
 // Convert converts the value to given scalar type.

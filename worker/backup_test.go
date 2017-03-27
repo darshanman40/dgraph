@@ -11,14 +11,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/group"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/rdf"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/group"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/rdf"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/store"
+	"github.com/dgraph/task"
+	"github.com/dgraph/x"
 )
 
 func populateGraphBackup(t *testing.T) {

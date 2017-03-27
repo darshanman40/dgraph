@@ -7,8 +7,8 @@ import (
 
 	"github.com/coreos/etcd/raft"
 	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/dgraph-io/dgraph/store"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/store"
+	"github.com/dgraph/x"
 )
 
 type Wal struct {

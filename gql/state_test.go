@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/lex"
+	"github.com/dgraph/lex"
 )
 
 func TestNewLexer(t *testing.T) {

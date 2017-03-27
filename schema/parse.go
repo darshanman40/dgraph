@@ -19,10 +19,10 @@ package schema
 import (
 	"io/ioutil"
 
-	"github.com/dgraph-io/dgraph/lex"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/lex"
+	"github.com/dgraph/tok"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 // Parse parses the schema file.

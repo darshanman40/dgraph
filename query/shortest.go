@@ -4,10 +4,10 @@ import (
 	"container/heap"
 	"context"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/algo"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/x"
 )
 
 type Item struct {

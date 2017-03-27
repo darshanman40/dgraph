@@ -19,8 +19,8 @@ package store
 import (
 	"strconv"
 
-	"github.com/dgraph-io/dgraph/rdb"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/rdb"
+	"github.com/dgraph/x"
 )
 
 var log = x.Log("store")

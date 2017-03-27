@@ -25,12 +25,12 @@ import (
 
 	farm "github.com/dgryski/go-farm"
 
-	"github.com/dgraph-io/dgraph/lex"
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/lex"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/types/facets"
+	"github.com/dgraph/x"
 )
 
 var emptyEdge task.DirectedEdge

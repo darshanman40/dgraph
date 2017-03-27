@@ -25,7 +25,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/dgraph-io/dgraph/query/graph"
+	"github.com/dgraph/query/graph"
 )
 
 type Op int

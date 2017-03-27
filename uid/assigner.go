@@ -25,9 +25,9 @@ import (
 
 	"github.com/dgryski/go-farm"
 
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/posting"
+	"github.com/dgraph/task"
+	"github.com/dgraph/x"
 )
 
 var lmgr *lockManager

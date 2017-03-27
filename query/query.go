@@ -29,15 +29,15 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/gql"
-	"github.com/dgraph-io/dgraph/query/graph"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/algo"
+	"github.com/dgraph/gql"
+	"github.com/dgraph/query/graph"
+	"github.com/dgraph/schema"
+	"github.com/dgraph/task"
+	"github.com/dgraph/types"
+	"github.com/dgraph/types/facets"
+	"github.com/dgraph/worker"
+	"github.com/dgraph/x"
 	farm "github.com/dgryski/go-farm"
 )
 

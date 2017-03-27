@@ -31,7 +31,7 @@ import (
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/dgraph/x"
 )
 
 const maxTokenSize = 100
